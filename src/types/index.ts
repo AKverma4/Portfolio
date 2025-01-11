@@ -31,3 +31,14 @@ export interface Profile {
     twitter?: string;
   };
 }
+
+interface Skill {
+  name: string;
+  icon: string;
+  proficiency: number;
+}
+
+interface SkillCategory {
+  category: string;
+  skills: Skill[];
+}

@@ -36,6 +36,9 @@ export default function Navbar() {
             <Link to="/projects" className="text-gray-600 hover:text-gray-900">
               Projects
             </Link>
+            <Link to="/skills" className="text-gray-600 hover:text-gray-900">
+              Skills
+            </Link>
             <Link to="/blog" className="text-gray-600 hover:text-gray-900">
               Blog
             </Link>
