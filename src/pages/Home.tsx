@@ -175,7 +175,9 @@ export default function Home() {
               <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  I am currently pursuing my Bachelor of Computer Applications (BCA) in my final year at Tilak Maharashtra Vidyapeeth University, maintaining a strong CGPA of 8.2 through my fourth semester.
+                  I am currently pursuing my Bachelor of Computer Applications (BCA) in my final
+                  year at Tilak Maharashtra Vidyapeeth University, maintaining a strong CGPA of 7.7
+                  through my fifth semester.
                 </p>
                 
                 <div className="space-y-2">
@@ -203,7 +205,7 @@ export default function Home() {
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>Successfully delivered enterprise-level website for IIIT College</li>
                     <li>Designed comprehensive UI/UX for healthcare platform</li>
-                    <li>Maintained excellent academic performance with 8.2 CGPA</li>
+                    <li>Maintained excellent academic performance with 7.7 CGPA</li>
                   </ul>
                 </div>
               </div>
@@ -221,7 +223,8 @@ export default function Home() {
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="/resume.pdf"
+                  href="/AJAY KUMAR CV.pdf"
+                  target="_blank"
                   className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
                 >
                   Download CV
